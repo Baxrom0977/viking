@@ -1,0 +1,241 @@
+@media (max-width:1400px) {
+    .header_info {
+
+        transform: translateY(100%);
+
+
+    }
+}
+@media (max-width:1200px) {
+    .header_info {
+
+        transform: translateY(67%);
+
+
+    }
+}
+
+@media (max-width:1140px) {
+    .strom {
+        position: relative;
+        left: 40%;
+    }
+}
+
+@media (max-width:992px) {
+    .header_link {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .header_list {
+
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        background-color: #252B42;
+        top: -560px;
+        right: 0;
+        height: 370px;
+        width: 180px;
+        transition: 0.5s all linear;
+        z-index: 999;
+    }
+
+    .label {
+        display: flex;
+        font-size: 25px;
+        color: #85CCDC;
+        justify-content: end;
+    }
+
+    #menu:checked+.header_list {
+        top: 0;
+    }
+
+    .header {
+        height: 625px;
+    }
+
+    .storm_text {
+        font-size: 55px;
+        line-height: 68px;
+    }
+
+    .strom {
+        width: 450px;
+
+    }
+
+    .storm_watch i {
+        font-size: 80px;
+    }
+
+    .header_info {
+        transform: translateY(202%);
+        height: 210px;
+        overflow: hidden;
+        overflow-y: auto;
+
+    }
+}
+
+@media(max-width:768px) {
+    .header {
+        height: 525px;
+    }
+
+    .title,
+    .serial_blok {
+        margin-top: 70px;
+    }
+
+    .serial_blok {
+        margin-bottom: 70px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .storm_text {
+        font-size: 50px;
+        line-height: 63px;
+    }
+
+    .strom {
+        width: 400px;
+        top: 30%;
+        left: 0;
+    }
+
+    .storm_watch i {
+        font-size: 70px;
+    }
+
+    .section {
+        height: 600px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px) {
+    .header {
+        height: 425px;
+    }
+
+    .header_logo {
+        margin-top: 50px;
+    }
+
+    .title,
+    .serial_blok {
+        margin-top: 50px;
+    }
+
+    .serial_blok {
+        margin-bottom: 50px;
+    }
+
+    .serial_info h3,
+    .right_text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header_link {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .sezon {
+
+        font-size: 70px;
+        line-height: 40px;
+    }
+
+    .sezon span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .header_text {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width:450px) {
+    .header {
+        height: 400px;
+    }
+
+    .header_logo {
+        margin-top: 50px;
+    }
+
+    .title,
+    .serial_blok {
+        margin-top: 30px;
+    }
+
+    .serial_blok {
+        margin-bottom: 30px;
+    }
+
+    .storm_text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .strom {
+        width: 280px;
+        height: 150px;
+        top: 0;
+        left: 0;
+    }
+
+    .storm_watch i {
+        font-size: 50px;
+    }
+
+    .storm_watch a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .section {
+        height: 350px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .heroes_title {
+        font-size: 60px;
+        line-height: 72px;
+        margin-bottom: 15px;
+    }
+
+    .heroes_text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .heroes_text:nth-of-type(1) {
+        margin-bottom: 10px;
+    }
+
+    .header_info {
+        flex-direction: column;
+    }
+
+    .sezon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
